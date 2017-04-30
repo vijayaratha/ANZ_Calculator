@@ -1,0 +1,45 @@
+README
+-----
+This sample project provides a command line tool to do RPN Calculator operations.
+
+
+System requirements
+-------------------
+
+1. JDK 1.8
+2. Maven Build tool (3.X.X)
+
+
+Compiling project
+----------------
+Change directory path to the "ANZ-CodingTask" folder location and run as;
+# mvn clean install
+
+Above will build the project.
+
+Run program
+------------
+Change directory path to the "target" folder location and run as;
+
+#java -jar com.anz.calculator-1.0-jar-with-dependencies.jar
+
+you will be asked for inputs  like;
+
+Please enter parameters and operations as single whitespace separated list 
+ eg: 5 4 3 + (If you want to quit type 'exit')  
+
+ $ >
+
+and if you provide like;
+3 4
+
+you will see the output as;
+
+Stack : 3 4 
+ 
+
+TestCases
+---------
+
+Test scenarios are added as Junit tests.(src/test/java/com/anz/calculator/test/CalculatorTest.java)
+
